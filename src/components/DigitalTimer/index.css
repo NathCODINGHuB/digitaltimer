@@ -1,0 +1,96 @@
+.mainContainer {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1, #defafe);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+}
+.timerDiContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  background-size: contain;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.die {
+  background-color: #ffffff;
+  border-radius: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  padding: 15%;
+}
+.timerStatus {
+  margin-top: 0px;
+  font-weight: 700;
+}
+.timer {
+  margin-bottom: 0px;
+  color: #00d9f5;
+}
+.switchesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.IncrementorDecrmentbnContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0px;
+}
+.starorpausebnContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.playbn {
+  width: 19px;
+}
+.smallBn {
+  background-color: transparent;
+  border: none;
+}
+
+.rightbn {
+  margin-left: 9px;
+}
+.incrementedtext {
+  background-image: linear-gradient(#28faad, #0ef4c7);
+  width: 50px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 3px;
+  font-weight: 600;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.pa {
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+.re {
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
